@@ -4,7 +4,7 @@
 template <typename T, int n>
 T max(const T (&arr)[n]) {
 T maxValue = arr[0];
-for (int i = 1; i < n; ++i) {
+for (int i = 1; i < n; ++i) { // ДЛЯ ПРИМЕРА
 if (arr[i] > maxValue) {
 maxValue = arr[i];
 }
